@@ -18,7 +18,8 @@ For python script:
 
 If you don't pass a directory, it defaults to the current directory.
 
-**WARNING**
+
+### WARNING
 
 Recursively searches nested directories for test files. Don't run from too high up in your directory tree.
 
