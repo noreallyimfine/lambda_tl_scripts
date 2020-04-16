@@ -14,6 +14,7 @@ For python script:
 			```python
 			python run_tests.py [OPTION DIR]
 			```
+---
 
 If you don't pass a directory, it defaults to the current directory.
 
