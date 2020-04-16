@@ -8,6 +8,8 @@ For bash script:
 			```./run_tests.sh [OPTION DIR]```
 
 If you get a ```Permission Error``` run ```chmod +x run_test.sh``` then run the file again.
+
+
 For python script:
 			```python
 			python run_tests.py [OPTION DIR]
