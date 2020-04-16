@@ -7,6 +7,10 @@ This script allows you to clone your students sprint into the directory you want
 ./clone_sprint.sh [STUDENT] [SPRINT]
 ```
 
+The STUDENT argument should match the keys in your hash-table. 
+
+The SPRINT argument should be the specific sprint part of the sprint challenge name. e.g. ```Intro-Python``` for ```Sprint-Challenge--Intro-Python```
+
 ### Setup
 
 This script requires some setup. It also expects a directory structure where you have a separate directory for each student contained within a parent directory all at the same level.
