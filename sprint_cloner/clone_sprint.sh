@@ -5,17 +5,18 @@ name=$1
 sprint=$2
 
 # need dict to map names to github handles
-declare -A Students=( ["Brandi"]="blubrandi" ["Jimmy"]="JimmyMcBride" ["Thomas"]="trodriguez89" ["TJ"]="Thomas-Katalenas" ["Forrest"]="Forrest-Bingham" ["Jerry"]="JerryHaaser" ["Alex"]="astillo" ["Shane"]="sjeremich23" )
+declare -A Students=() 
 
 # need another dict to map name to branch they usually create
-declare -A Branches=( ["Jimmy"]="jimmy-mcbride" ["Brandi"]="brandi" ["Forrest"]="MVP" ["Thomas"]="Thomas-Rodriguez" ["Shane"]="shane-jeremich" ["Alex"]="master" ["Jerry"]="master" )
+declare -A Branches=()
 
 # which urls will be a constant and should be saved as variables
 GH_URL="https://github.com/"
 SC_URL="/Sprint-Challenge--"
-
+PATH_TO_STUDENTS="<fill in your path here>"
+PATH_TO_STUDENTS="~/Desktop/repos/students/"
 # clone student sprint branch to their student folder
-git clone -b "${Branches[$name]}" "$GH_URL""${Students[$name]}""$SC_URL""$sprint"".git" ~/Desktop/repos/students/"$name"/"$sprint"-SC
+git clone -b "${Branches[$name]}" "$GH_URL""${Students[$name]}""$SC_URL""$sprint"".git" "$PATH_TO_STUDENTS""$name"/"$sprint"-SC
 
 
 
