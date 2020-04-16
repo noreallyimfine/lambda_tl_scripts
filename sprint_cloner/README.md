@@ -3,7 +3,8 @@
 This script allows you to clone your students sprint into the directory you want. Hopes to save alot of directory switching, as well as needing to copy the link to clone
 
 ### Usage
-```./clone_sprint.sh [STUDENT] [SPRINT]
+```
+./clone_sprint.sh [STUDENT] [SPRINT]
 ```
 
 ### Setup
