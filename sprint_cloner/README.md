@@ -9,7 +9,7 @@ This script allows you to clone your students sprint into the directory you want
 
 The STUDENT argument should match the keys in your hash-table. 
 
-The SPRINT argument should be the specific sprint part of the sprint challenge name. e.g. ```Intro-Python``` for (```Sprint-Challenge--Intro-Python```)
+The SPRINT argument should be the specific sprint part of the sprint challenge name. (e.g. ```Intro-Python``` for ```Sprint-Challenge--Intro-Python```)
 
 ### Setup
 
