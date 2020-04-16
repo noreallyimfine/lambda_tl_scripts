@@ -14,8 +14,6 @@ This script requires some setup. It also expects a directory structure where you
 1. Fill out **Github** (first) hash-table. Syntax ```["<student>"]="<github-username>"```. 
 The hash-table keys should be the same as the students directory name as it will also be included in the path.
 
-2. Fill out branch (second) hash-table. syntax ```["2. Fill out branch (second) hash-table. syntax ```["<student>"]="<working-branch>"
-
-The hash-table keys should be the same as the students directory name and the first hash-table keys.
+2. Fill out **branch** (second) hash-table. Syntax ```["<student>"]="<working-branch>"```. The hash-table keys should be the same as the students directory name and the first hash-table keys.
 
 
