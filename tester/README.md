@@ -6,6 +6,7 @@ These scripts will auto run all the test files. Hope to save alot of directory s
 
 For bash script:
 			```./run_tests.sh [OPTION DIR]```
+
 			If you get a ```Permission Error``` run ```chmod +x run_test.sh``` then run the file again.
 For python script:
 			```python
